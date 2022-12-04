@@ -1,0 +1,12 @@
+.basket {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 80%;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fed59a;
+}

@@ -1,0 +1,25 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  /* background-image: url(../../images/background.png); */
+  /* background-size: contain; */
+}
+
+main {
+  display: flex;
+  margin-top: 120px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
