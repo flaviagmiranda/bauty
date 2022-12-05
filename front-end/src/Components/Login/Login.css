@@ -7,8 +7,8 @@
     border-radius: 3px;
     padding: 0 16px;
     border-radius: 4px;
-    color: #fff;
-    background: #FF7F00;
+    color: #F8F7FF;
+    background: #B8B8FF;
     line-height: 1.15;
     font-size: 14px;
     height: 36px;
@@ -24,6 +24,6 @@
 }
 
 .login:hover {
-    background: #d36a00;
+    background: #B8B8FF;
     box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
 }
