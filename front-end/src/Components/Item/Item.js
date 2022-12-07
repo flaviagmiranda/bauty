@@ -18,7 +18,7 @@ export default function Item({ product, basket, setBasket }) {
       <div className="product-details">
         <h3>{product.name}</h3>
         <p>{product.brand}</p>
-        <h3>{product.currency}{product.price}</h3>
+        <h3>£{product.price}</h3>
         {/* <p>{product.description}</p> */}
         <button className="view-item-button">View Item</button>
         {isAuthenticated &&(

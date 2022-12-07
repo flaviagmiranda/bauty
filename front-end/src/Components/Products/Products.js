@@ -23,14 +23,16 @@ export default function Products({ basket, setBasket }) {
   return (
     <div className="products">
       {products.map(function (product) {
-        return (
-          <Item
-            key={product.id}
-            product={product}
-            basket={basket}
-            setBasket={setBasket}
-          />
-        );
+        if (product.brand === "maybelline") {
+          return (
+            <Item
+              key={product.id}
+              product={product}
+              basket={basket}
+              setBasket={setBasket}
+            />
+          );
+        }
       })}
     </div>
   );
