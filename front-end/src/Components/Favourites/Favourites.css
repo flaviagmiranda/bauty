@@ -1,0 +1,32 @@
+.favouriteIcon {
+    /* Modify size here: */
+    --size: 20px;
+  
+    position: relative;
+    width: var(--size);
+    height: calc(var(--size) * 0.3);
+  }
+  
+  .favouriteIcon:before,
+  .favouriteIcon:after {
+    position:absolute;
+    content: "";
+    left: calc(var(--size) * 0.55);
+    top: 0;
+    width: calc(var(--size) * 0.55);
+    height: calc(var(--size) * 0.85);
+    background: #333;
+    border-radius: calc(var(--size) * 0.55) calc(var(--size) * 0.55) 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+  }
+  
+  .favouriteIcon:hover{
+    background-color: #E56399;
+  }
+  
+  .favouriteIcon:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+  }

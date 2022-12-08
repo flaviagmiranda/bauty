@@ -17,6 +17,12 @@ header {
   margin-left: 20px;
 }
 
+.headerElements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* .navBar {
   display: inline;
   float: left;
