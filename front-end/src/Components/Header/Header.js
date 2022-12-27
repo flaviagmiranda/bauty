@@ -13,11 +13,13 @@ export default function Header() {
         src="https://i.imgur.com/OWeM7yf.png"
         alt="bauty logo"
       ></img>
+      <div className="navBar">
+        <Home />
+      </div>
       <div className="headerElements">
-        <div className="navBar">
-          <Home />
-        </div>
-        <Favourites />
+        <span className="favIcon">
+          <Favourites />
+        </span>
         <LoginButton />
         <LogoutButton />
       </div>

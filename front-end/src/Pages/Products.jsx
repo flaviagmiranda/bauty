@@ -1,9 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Products from '../Components/Products/Products';
+import Header from '../Components/Header/Header';
 
 function ProductsPage() {
-    return (
-        <h1>this is the products page</h1>
-    );
-}
+    const [basket, setBasket] = useState([]);
 
+    return (
+        <div className="App">
+            <Header />
+            <main>
+            <Products basket={basket} setBasket={setBasket} />
+            </main>
+        </div>
+    )
+
+}
 export default ProductsPage;

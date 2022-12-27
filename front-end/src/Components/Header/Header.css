@@ -4,9 +4,9 @@ header {
   align-items: center;
   background-color: #f8f7ff;
   /* padding-left: 20px;
-  padding-right: 20px; */
-  /* padding: 0px 5% 0px 5%; */
-  position: fixed;
+  padding-right: 20px; 
+  padding: 0px 5% 0px 5%; */
+  position: absolute;
   width: 100%;
 }
 
@@ -21,6 +21,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-right: 20px;
+}
+
+.favIcon {
+  margin: 30px 50px 40px 50px;
 }
 
 /* .navBar {
