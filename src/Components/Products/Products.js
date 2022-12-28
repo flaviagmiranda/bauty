@@ -7,7 +7,7 @@ export default function Products({ basket, setBasket }) {
 
   useEffect(() => {
     async function getProducts() {
-      await fetch("http://makeup-api.herokuapp.com/api/v1/products.json")
+      await fetch("https://makeup-api.herokuapp.com/api/v1/products.json")
         .then((response) => response.json()) // <-- wait for Promise to resolve
         .then((products) => setProducts(products))
         .catch((err) => {
