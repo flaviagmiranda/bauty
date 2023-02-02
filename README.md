@@ -11,7 +11,7 @@ front-end: **npm start**
 back-end: **npm run dev**
 
 ### THE PROBLEM 
-Creating an e-commerce website to prectice both front and back-end skills, such as React, CSS, Authorisation and Authentication, working with API's, and much more. 
+Creating an e-commerce website to practice both front and back-end skills, such as React, CSS, Authorisation and Authentication, working with API's, and much more. 
 
 ### THE GOAL
 Create a MVP make-up and cosmetics e-commerce website in which is easy to find products and prices.
